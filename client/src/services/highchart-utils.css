@@ -1,0 +1,13 @@
+.highcharts-x-axis-link-style .highcharts-xaxis-labels text tspan {
+    color: #003399;
+    cursor: pointer;
+    font-size: 11px;
+    fill: #003399;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.highcharts-x-axis-link-style .highcharts-xaxis-labels text tspan:hover {
+    /*text-decoration:none;*/
+    /*text-shadow: 1px 1px 1px #555;*/
+}

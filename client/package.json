@@ -1,0 +1,36 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@zippytech/react-datagrid-pro": "1.0.33",
+    "ajv": "6.5.0",
+    "bootstrap": "3.3.7",
+    "copy-to-clipboard": "3.0.8",
+    "highcharts": "6.1.0",
+    "highcharts-exporting": "0.1.7",
+    "lodash": "4.17.10",
+    "moment": "2.22.2",
+    "numeral": "2.0.6",
+    "react": "16.3.2",
+    "react-bootstrap": "0.32.1",
+    "react-data-export": "https://github.com/boazadato/react-data-export/tarball/ba-master",
+    "react-dom": "16.3.2",
+    "react-ga": "2.5.3",
+    "react-helmet": "5.2.0",
+    "react-highcharts": "16.0.2",
+    "react-json-view": "1.17.0",
+    "react-responsive": "4.1.0",
+    "react-router-dom": "4.2.2",
+    "react-scripts": "^1.1.4",
+    "react-select": "1.2.1",
+    "xlsx": "git+https://github.com/securedeveloper/js-xlsx.git#c2fc94068b0139cb74eee193a5d896dafa067ec2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:8000/"
+}

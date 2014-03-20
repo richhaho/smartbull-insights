@@ -1,0 +1,8 @@
+.nav-tabs li a.active{
+    font-style: normal;
+}
+
+.nav-tabs li a:not(.active){
+    background-color: #E8E8E8;
+    border: 1px solid #ddd;
+}

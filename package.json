@@ -1,0 +1,51 @@
+{
+  "name": "smartbull-insights",
+  "version": "0.0.1",
+  "description": "tbd",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "tbd"
+  },
+  "private": true,
+  "author": "boaz adato",
+  "dependencies": {
+    "amqplib": "0.5.2",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "1.15.2",
+    "compression": "1.6.2",
+    "express": "4.13.4",
+    "express-domain-middleware": "0.1.0",
+    "googleapis": "^28.1.0",
+    "jake": "8.0.12",
+    "jsonwebtoken": "8.2.1",
+    "lodash": "4.17.10",
+    "method-override": "2.3.7",
+    "moment": "2.17.1",
+    "moment-timezone": "0.5.11",
+    "mongoose": "5.1.1",
+    "numeral": "2.0.6",
+    "passport": "0.4.0",
+    "passport-jwt": "4.0.0",
+    "q": "1.4.1",
+    "throng": "4.0.0"
+  },
+  "engines": {
+    "npm": "6.0.1",
+    "node": "8.11.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "mocha": "2.5.3"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "client/*"
+    ]
+  },
+  "scripts": {
+    "postinstall": "cd client && npm i",
+    "heroku-prebuild": "cd client && npm i && npm run build",
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,10 @@
+#secs-select{
+    /*min-width: 400px;*/
+}
+
+.sec-metadata-row h5{
+    padding: 0px 5px
+}
+.sec-metadata-row h5:not(:last-child){
+    border-right: gray 2px solid;
+}

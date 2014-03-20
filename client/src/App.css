@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.active {
+    font-style: italic;
+    text-decoration: none;
+}
+
+.active:focus {
+    text-decoration: none;
+}
+
+.active:hover {
+    text-decoration: underline;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-align-centered{
+    align-items: center;
+}
+
+
+li[role=presentation].active{
+    font-style: unset;
+}
+
+li[role=presentation].active:hover{
+    text-decoration: unset;
+}
+
+
+.zippy-react-datagrid{
+    min-width: 100%;
+    min-height: 400px;
+}
+
+
+.panel-title{
+    text-align: center;
+}
+
+.panel-filters{
+    background-color: #d9edf7;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #70b14b;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  position: fixed;
+  z-index: 999;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media (min-width: 768px) {
+    .Select-menu-outer {
+        max-height: 500px;
+    }
+
+    .Select-menu {
+        max-height: 498px;
+    }
+
+}
+

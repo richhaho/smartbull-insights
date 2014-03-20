@@ -1,0 +1,42 @@
+{
+  "name": "smartbull",
+  "scripts": {
+  },
+  "env": {
+    "MONGODB_URI": {
+      "required": true
+    },
+    "NODE_ENV": {
+      "required": true
+    },
+    "CLOUDAMQP_URL": {
+      "required": true
+    },
+    "ggServiceAccountKey": {
+      "required": true
+    },
+    "ZIPPY_NPM_PW": {
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
+    "HEROKU_PARENT_APP_NAME": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "logdna",
+    "mongolab"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+.App-header {
+    /*background-color: #222;*/
+    /*height: 250px;*/
+    /*padding: 20px;*/
+    /*color: white;*/
+}
+
+.App-header .label{
+    margin-left: 1px;
+}
+
+#logo-container{
+    padding: inherit;
+}
+
+#logo-container img{
+    display: inline;
+}
+
+#logo-container #logo-label{
+    color: #66ad3e;
+    font-style: italic;
+    font-size: 50%;
+}
+
+@media (max-width: 767px) {
+    .search-nav-container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .search-nav-container {
+        width: 300px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .search-nav-container {
+        width: 85px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .search-nav-container {
+        width: 280px;
+    }
+}

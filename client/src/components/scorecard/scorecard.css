@@ -1,0 +1,16 @@
+.scorecard-container {
+    display: inline-block;
+    border-right: gray 2px solid;
+    padding: 0px 35px
+}
+
+.scorecard-label {
+    font-size: 15px;
+    color: grey;
+}
+
+.scorecard-value {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+}
